@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock! Paper! Scissors!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <div>
+                <span id="title">ROCK PAPER SCISSORS</span>
+            </div>
+        </header>
+        <section id="points">
+            <div>
+                <span>Your Score: </span>
+                <span id="playerScores">0</span>
+            </div>
+            <div>
+                <span>ROUND</span>
+                <span id="roundCount">0</span>
+            </div>
+            <div>
+                <span id="BotScores">0</span>   
+                <span> :Bot Score</span>       
+            </div>
+        </section>
+        <section id="playerPicks">
+            <div class="rpsics" id="prpsics">
+                <div><img id="playerRock" src="image/rock.png" width="125" height="125"></div>
+                <div><img id="playerPaper" src="image/paper.png" width="125" height="125"></div>
+                <div><img id="playerScissors" src="image/scissors.png" width="125" height="125"></div>
+            </div>
+            <div class="rpsics">       
+                <div><img src="image/scissors.png" width="125" height="125"></div>
+                <div><img src="image/paper.png" width="125" height="125"></div>
+                <div><img src="image/rock.png" width="125" height="125"></div>
+            </div>
+        </section>
+        <section id="Bot">
+            <div>
+                <button id="resetBot">RESET</button>
+            </div>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>
