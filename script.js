@@ -33,7 +33,7 @@ resetBot.addEventListener('click', function(){
 
 function computerPlay() {
     const rps = ["Rock", "Paper", "Scissors"];
-    let randomNumer = Math.round(Math.random() * 2);
+    let randomNumer = Math.floor(Math.random() * 3);
     let result = rps[randomNumer];
 
     return result;
