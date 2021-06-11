@@ -130,7 +130,6 @@ function resetGame() {
 }
 
 function fiveGames() {
-
     if (playerScoreCounter == 3) {
         let playerFinalScore = playerScoreCounter;
         let botFinalScore = botScoreCounter;
